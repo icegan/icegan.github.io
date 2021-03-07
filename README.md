@@ -1,1 +1,0 @@
-# SGGpoint.github.io
