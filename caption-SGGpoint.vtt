@@ -65,102 +65,102 @@ to derive their point-wise features.
 Then a symmetric pooling function is performed
 
 17
-00:00:58.000 --> 00:01:01.000
+00:00:58.000 --> 00:01:00.800
 along the class-agnostic point-to-instance indicator
 
 18
-00:01:53.000 --> 00:01:57.000
+00:01:53.000 --> 00:01:56.800
 the visual cues lurking inside the multi-dimensional edge features, and,
 
 19
-00:01:57.000 --> 00:02:02.000
+00:01:57.000 --> 00:02:01.800
 whether the evolved node features could further payback to augment the edge evolution.
 
 20
-00:02:02.000 --> 00:02:04.000
+00:02:02.000 --> 00:02:03.800
 These two assumptions bring us EdgeGCN.
 
 21
-00:02:05.000 --> 00:02:10.000
+00:02:05.000 --> 00:02:09.800
 With EdgeGCN, we could now exploit multi-dimensional edge features to conduct
 
 22
-00:02:10.000 --> 00:02:14.000
+00:02:10.000 --> 00:02:13.800
 more comprehensive reasoning on graph representation learning.
 
 23
-00:02:15.000 --> 00:02:19.000
+00:02:15.000 --> 00:02:18.800
 In last stage, two Multilayer Perceptron based inference streams are established
 
 24
-00:02:19.000 --> 00:02:24.000
+00:02:19.000 --> 00:02:23.800
 as Node MLP and Edge MLP with residual connections.
 
 25
-00:02:25.000 --> 00:02:28.000
+00:02:25.000 --> 00:02:27.800
 Our ultimate goal is to create a scene graph, whose nodes and edges depict the
 
 26
-00:02:28.000 --> 00:02:32.000
+00:02:28.000 --> 00:02:31.800
 instance objects and their inner structural relationships, respectively.
 
 27
-00:02:39.000 --> 00:02:44.000
+00:02:39.000 --> 00:02:43.800
 For our real-world scene graph studies, we manually checked and carefully revised
 
 28
-00:02:44.000 --> 00:02:49.000
+00:02:44.000 --> 00:02:48.800
 the raw 3DSSG datasets to a cleaned version, with mappings to
 
 29
-00:02:49.000 --> 00:02:54.000
+00:02:49.000 --> 00:02:53.800
 more popular and meaningful sets of instance semantics and structural relationships.
 
 30
-00:02:55.000 --> 00:03:01.000
+00:02:55.000 --> 00:03:00.800
 This cleaned version contains 27 Object classes and 16 types of structural Relationships.
 
 31
-00:03:02.000 --> 00:03:05.000
+00:03:02.000 --> 00:03:04.800
 Below are the changes from the raw one:
 
 32
-00:03:17.000 --> 00:03:21.000
+00:03:17.000 --> 00:03:20.800
 We outperform other graph reasoning approaches on three related scene graph generation tasks.
 
 33
-00:03:22.000 --> 00:03:26.000
+00:03:22.000 --> 00:03:25.800
 In our ablation studies, we demonstrate the contribution of each module design.
 
 34
-00:03:27.000 --> 00:03:29.000
+00:03:27.000 --> 00:03:28.800
 And here is our quantitative comparison with previous work.
 
 35
-00:03:30.000 --> 00:03:33.000
+00:03:30.000 --> 00:03:32.800
 Here are more qualitative results.
 
 36
-00:03:36.000 --> 00:03:42.000
+00:03:36.000 --> 00:03:41.800
 We also verified EdgeGCN on conventional graph representation learning tasks,
 
 37
-00:03:42.000 --> 00:03:46.000
+00:03:42.000 --> 00:03:45.800
 including 3 node-wise classifications on citation datasets,
 
 38
-00:03:46.000 --> 00:03:49.000
+00:03:46.000 --> 00:03:48.800
 which are Cora, CiteSeer, and Pubmed,
 
 39
-00:03:49.000 --> 00:03:54.000
+00:03:49.000 --> 00:03:53.800
 and 2 whole-graph recognitions for molecular analysis on Tox21 and BBBP.
 
 40
-00:03:55.000 --> 00:04:00.000
+00:03:55.000 --> 00:03:59.800
 All models are repeatedly trained and evaluated for 50 runs.
 
 41
-00:04:03.000 --> 00:04:05.000
+00:04:03.000 --> 00:04:04.800
 Thanks for watching.
 
